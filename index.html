@@ -7,13 +7,14 @@
     <title>Sua Energia Solar</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <header>
         <div class="container header-flex">
             <div class="logo-title">
-                <img src="./img/1.jpg" alt="Logo da Empresa" class="logo">
+                <img src="./img/logo.jpg" alt="Logo da Empresa" class="logo">
                 <div>
                     <span class="company-name">ELETRO ENGENHARIA</span>
                     <h1>Que tal Gerar sua Própria Energia?</h1>
@@ -22,8 +23,10 @@
                         Retorno Rápido: Investimento se paga em poucos anos.</p>
                 </div>
             </div>
-            <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank" class="btn-whatsapp destaque">Faça seu orçamento
-                pelo WhatsApp</a>
+            <a href="https://wa.me/5586988120804?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20de%20energia%20solar."
+                target="_blank" class="btn-whatsapp destaque">
+                Faça seu orçamento pelo WhatsApp
+            </a>
         </div>
     </header>
 
@@ -31,7 +34,7 @@
         <div class="container">
             <h2>Antes e Depois da Energia Solar</h2>
             <div class="image-comparison">
-                <img src="./img/1.jpg" alt="Antes e Depois">
+                <img src="./img/boleto.jpg" alt="Antes e Depois">
             </div>
         </div>
     </section>
@@ -39,7 +42,7 @@
     <section class="banks">
         <div class="container">
             <h2>Bancos Parceiros</h2>
-            <img src="./img/1.jpg" alt="Bancos que aceitam financiamento" class="bank-logos">
+            <img src="./img/bancos.jpg" alt="Bancos que aceitam financiamento" class="bank-logos">
         </div>
     </section>
 
@@ -57,7 +60,7 @@
                 </ul>
             </div>
             <div class="image-content">
-                <img src="./img/1.jpg" alt="Pessoa feliz com energia solar">
+                <img src="./img/economize.jpg" alt="Pessoa feliz com energia solar">
             </div>
         </div>
     </section>
@@ -65,7 +68,7 @@
     <section class="problem-solution">
         <div class="container content-right">
             <div class="image-content">
-                <img src="./img/1.jpg" alt="Pessoa assustada com a conta de luz">
+                <img src="./img/2.jpg" alt="Pessoa assustada com a conta de luz">
             </div>
             <div class="text-content">
                 <h2>SUSTO COM VALOR ELEVADO DA SUA CONTA DE ENERGIA?</h2>
@@ -77,7 +80,7 @@
                     <li>Ao final do mês sempre se vê apertado e sem dinheiro</li>
                     <li>Desvalorização de sua casa/terreno ou empresa</li>
                 </ul>
-                <button class="btn-cta">EU QUERO COMPRAR</button>
+                <a href="https://wa.me/5586988120804" target="_blank" class="btn-cta">EU QUERO COMPRAR</a>
             </div>
         </div>
     </section>
@@ -85,7 +88,12 @@
     <section class="about-us">
         <div class="container">
             <h2>Quem Somos</h2>
-            <p>Insira aqui o texto sobre quem é sua empresa, sua missão, valores, etc.</p>
+            <p>Eletron Engenharia Solar e Consultoria é referência em soluções em sustentáveis e econômicas.
+
+                Atuando com excelência no mercado de energia fotovoltaica, instalações elétricas prediais e industriais.
+
+                Oferecemos manutenção de subestações e serviços de engenheria, com atendimento completo do orçamento ao
+                pós-vendas.</p>
         </div>
     </section>
 
@@ -93,9 +101,9 @@
         <div class="container">
             <h2>Nossos Projetos Realizados</h2>
             <div class="project-gallery">
-                <img src="./img/1.jpg" alt="Projeto 1">
-                <img src="./img/1.jpg" alt="Projeto 2">
-                <img src="./img/1.jpg" alt="Projeto 3">
+                <img src="./img/trabalho1.jpg" alt="Projeto 1">
+                <img src="./img/trabalho2.jpg" alt="Projeto 2">
+                <img src="./img/trabalho3.jpg" alt="Projeto 3">
             </div>
         </div>
     </section>
@@ -110,15 +118,21 @@
                 <p><strong>E-mail:</strong> engeletronesc@gmail.com</p>
                 <p><strong>Endereço:</strong> Quadra 01 Casa 01, Renascença.</p>
                 <div class="social-links">
-                    <a href="https://facebook.com/SEUFACEBOOK" target="_blank">Facebook</a>
-                    <a href="https://instagram.com/SEUINSTAGRAM" target="_blank">Instagram</a>
-                    <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank">Whatsapp</a>
+                    <a href="https://www.facebook.com/share/1E6ixkMUPF/?mibextid=wwXIfr" target="_blank"
+                        class="facebook" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/eletronengenhariathe?igsh=ZjRzd3EyYW80dXdi" target="_blank"
+                        class="instagram" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/5586988120804" target="_blank" class="whatsapp" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                 </div>
             </div>
             <div class="form-container">
-                <form
-                    action="https://www.exteriores.gob.es/Consulados/edimburgo/en/ServiciosConsulares/Paginas/Consular/Visado-de-residencia-no-lucrativa.aspx"
-                    method="POST">
+                <form id="whatsapp-form">
                     <label for="name">Nome:</label>
                     <input type="text" id="name" name="name" required>
 
@@ -131,7 +145,9 @@
                     <label for="message">Mensagem:</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
 
-                    <button type="submit">Enviar Mensagem</button>
+                    <button type="button" class="btn-whatsapp" style="margin-top:16px;display:inline-block;">
+                        Enviar mensagem pelo WhatsApp
+                    </button>
                 </form>
             </div>
         </div>
@@ -143,7 +159,18 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        document.querySelector('#whatsapp-form .btn-whatsapp').addEventListener('click', function () {
+            const nome = document.getElementById('name').value;
+            const telefone = document.getElementById('whatsapp').value;
+            const email = document.getElementById('email').value;
+            const mensagem = document.getElementById('message').value;
+            const texto = encodeURIComponent(
+                `Olá! Meu nome é ${nome}.\nWhatsApp: ${telefone}\nEmail: ${email}\nMensagem: ${mensagem}`
+            );
+            window.open(`https://wa.me/5586988120804?text=${texto}`, '_blank');
+        });
+    </script>
 </body>
 
 </html>
